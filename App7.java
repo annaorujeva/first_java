@@ -1,13 +1,11 @@
 package app;
-import java.util.Scanner;
 
 //Дан массив целых чисел: [1,-10,5,6,45,23,-45,-34,0,32,56,-1,2,-2]. Для данного массива найти и вывести на экран:
-// - максимальное значение
-// - сумму положительных элементов
-// - сумму четных отрицательных элементов
-// - количество положительных элементов
+// - максимальное значение*
+// - сумму положительных элементов*
+// - сумму четных отрицательных элементов*
+// - количество положительных элементов*
 // - среднее арифметическое отрицательных элементов
-
 public class App7 {
     public static void main(String[] args){
         int[] a = new int[]{1,-10,5,6,45,23,-45,-34,0,32,56,-1,2,-2};
@@ -36,16 +34,11 @@ public class App7 {
             }
         }
         sr_otr = sum_otr/col_otr;
-        System.out.println("максимальное значение: ");
-        System.out.println(max);
-        System.out.println("сумма положительных элементов: ");
-        System.out.println(sum_pol);
-        System.out.println("сумма четных отрицательных элементов: ");
-        System.out.println(sum_chet_otr);
-        System.out.println("количество положительных элементов: ");
-        System.out.println(col_pol);
-        System.out.println("среднее арифметическое отрицательных: ");
-        System.out.println(sr_otr);
+        System.out.println("максимальное значение: " + max);
+        System.out.println("сумма положительных элементов: " + sum_pol);
+        System.out.println("сумма четных отрицательных элементов: " + sum_chet_otr);
+        System.out.println("количество положительных элементов: " + col_pol);
+        System.out.println("среднее арифметическое отрицательных: " + sr_otr);
 
     }
 }

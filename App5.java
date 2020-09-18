@@ -9,7 +9,7 @@ public class App5 {
         System.out.println("Введите целое число: ");
         Scanner scanner = new Scanner(System.in);
         int value = scanner.nextInt();
-        String desc = "";
+        String desc;
         if (value==0){
             desc = "Нулевое значение";
         }
